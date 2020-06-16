@@ -1,0 +1,42 @@
+<div class="modal fade bd-example-modal-lg" id="modal-conforme" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content card-info card">
+            <div class="modal-header card-header">
+                <h5 class="modal-title" id="exampleModalLabel">Conforme</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="btn_cerr">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body card-body">
+                <div class="row">
+
+                    <div class="col-md-6" >
+                        <label for="inputPassword3" class="col-md-12">Inspector</label>
+                        <div style='float: left;' id='supervisor_avance'>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputPassword3" style="font-weight:500 !important;color:white">.</label>
+                        <div class="form-check"  >
+                            <input type="checkbox" class="form-check-input" id="conformidad_forzosa">
+                            <label class="form-check-label" for="exampleCheck1">Conformidad Forzosa</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group ">
+                            <label for="inputEmail3">Observación</label>
+                            <input type="text" class="form-control" id="observacion" placeholder="Observación" require >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" id="registrar_liberacion"><i class="far fa-save"></i> Registrar</button>
+                <button type="button" class="btn btn-danger"   id="btn_cerr_asig_2"><i class="far fa-times-circle"></i>
+                    Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>

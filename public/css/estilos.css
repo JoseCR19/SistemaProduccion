@@ -1,0 +1,108 @@
+body
+{
+	background:url("../wallpaper/background4.jpg") ;
+}
+.contenedor-info
+{
+	width: 19%;
+	height: 80%;
+	float: left;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin: 5.5% .5%;
+	border-radius: 10px;
+
+}
+.contenedor-info2
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.70);
+	border-radius: 10px;
+}
+
+#worker
+{
+	background: url("../wallpaper/worker.jpg") no-repeat;
+	position: relative;
+	background-position: center;
+}
+#assistence
+{
+	background: url("../wallpaper/assistence.jpg") no-repeat;
+	position: relative;
+	background-position: center;
+}
+#planilla
+{
+	background: url("../wallpaper/planilla.jpg") no-repeat;
+	position: relative;
+	background-position: center;	
+
+}
+#report
+{
+	background: url("../wallpaper/bus-accounts-01.jpg") no-repeat;
+	position: relative;
+	background-position: center;	
+}
+
+
+#user
+{
+	background: url("../wallpaper/users.jpg") no-repeat;
+	position: relative;
+	background-position: center;		
+}
+.contenedor-txt-img
+{
+	vertical-align: middle;
+	padding: 50% 0 ;
+	color:white;
+	font-family: 'Lobster', cursive;
+	
+}
+.descripcion
+{
+	visibility: hidden;
+}
+
+.contenedor-txt-img h3
+{
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.hvr-box-shadow-outset {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-box-shadow-outset:hover, 
+.hvr-box-shadow-outset:focus, 
+.hvr-box-shadow-outset:active {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

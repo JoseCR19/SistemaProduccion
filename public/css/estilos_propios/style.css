@@ -1,0 +1,9 @@
+.sincronizacion-inicio{
+    display: none;
+}
+.sincronizacion-next{
+    display: block;
+}
+.sincronizacion-final{
+    display: none !important;
+}

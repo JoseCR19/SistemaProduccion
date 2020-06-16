@@ -1,0 +1,57 @@
+{
+  "short_name": "MimcoProd",
+  "name": "MimcoProd",
+  "background_color": "#7389AE",
+   "theme_color": "#7389AE",
+  "icons": [
+    {
+      "src": "images/icons/mimco-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco2.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco-168x168.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/mimco-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://mimcoapps.mimco.com.pe/SistemaProduccion/",
+  "display": "standalone" 
+   
+   
+}
